@@ -19,11 +19,10 @@ while True:
 
         lucro = receita - custos
 
-        print("\n  ──────────────────────────────────")
+        print("\n ")
         print(f"  Ganhos:   R$ {receita:.2f}")
         print(f"  Custos:   R$ {custos:.2f}")
         print(f"  Lucro:    R$ {lucro:.2f}")
-        print("  ──────────────────────────────────")
 
         if lucro > 0:
             print("    Status: OPERAÇÃO SAUDÁVEL")
